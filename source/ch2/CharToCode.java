@@ -7,5 +7,7 @@ class CharToCode {
 
 		char hch = '가';     // char hch = 0xAC00;
 		System.out.printf("%c=%d(%#X)%n", hch, (int)hch, (int)hch);
+		
+		//%c: 문자형, %d: 10진수, %#X: 16진수
 	} 
 } 

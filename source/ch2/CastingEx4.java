@@ -14,5 +14,8 @@ class CastingEx4 {
 		System.out.printf("f=%f i2=%d\n", f, i2);
 		System.out.printf("d=%f i3=%d\n", d, i3);
 		System.out.printf("(int)%f=%d\n", f2, i4);
+		
+		// float의 정밀도 7자리, double의 정밀도 15자리를 보여준다.
+		// float형을 int형으로 형변환하면, 소수이하를 버린다. (반올림X)
 	}
 }
