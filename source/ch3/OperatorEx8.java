@@ -5,6 +5,7 @@ class OperatorEx8 {
 
 		long c = a * b;     // a * b = 2,000,000,000,000 ?
 
-		System.out.println(c);
+		System.out.println(c);	// -1454759936
+		// 오버플로우 발생
 	}
 }

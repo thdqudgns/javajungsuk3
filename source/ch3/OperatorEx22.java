@@ -8,7 +8,7 @@ class OperatorEx22 {
 		System.out.printf("0.1==0.1f    %b\n",  0.1==0.1f);
 		System.out.printf("f =%19.17f\n", f);
 		System.out.printf("d =%19.17f\n", d);
-		System.out.printf("d2=%19.17f\n", d2);
+		System.out.printf("d2=%19.17f\n", d2);	// 정밀도가 증가한다고해서 저장된 값이 변경되는 것은 아니다
 		System.out.printf("d==f   %b\n", d==f);
 		System.out.printf("d==d2  %b\n", d==d2);
 		System.out.printf("d2==f  %b\n", d2==f);

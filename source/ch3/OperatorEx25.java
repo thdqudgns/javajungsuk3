@@ -8,7 +8,7 @@ class OperatorEx25 {
 		System.out.printf("문자를 하나 입력하세요.>");
 
 		String input = scanner.nextLine();
-		ch = input.charAt(0);
+		ch = input.charAt(0);	//0은 input의 인덱스이다.
 
 		if('0'<= ch && ch <= '9') {
 			System.out.printf("입력하신 문자는 숫자입니다.\n");
