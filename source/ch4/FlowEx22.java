@@ -8,7 +8,7 @@ class FlowEx22 {
 		}
 		System.out.println();		
 
-		for(int tmp : arr) {
+		for(int tmp : arr) {	// arr에 저장되어 있는 값 하나씩 tmp에 받아온다.
 			System.out.printf("%d ", tmp);
 			sum += tmp;
 		}

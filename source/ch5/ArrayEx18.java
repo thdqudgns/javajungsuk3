@@ -1,5 +1,5 @@
 class ArrayEx18 {
-	public static void main(String[] args) {
+	public static void main(String[] args) {	// 2차원 배열
 		 int[][] score = {
 							{ 100, 100, 100}
 							, { 20, 20, 20}

@@ -10,13 +10,13 @@ class ArrayEx3{
 		for(int i=0; i < arr.length;i++) 
 			System.out.println("arr["+i+"]:"+arr[i]);	
 
-		int[] tmp = new int[arr.length*2];
+		int[] tmp = new int[arr.length*2];	// 여기서 새로운 배열을 선언하면서, 배열의 길이를 두 배 늘렸다
 
 		// 배열 arr에 저장된 값들을 배열 tmp에 복사한다.
 		for(int i=0; i < arr.length;i++) 
 			tmp[i] = arr[i];
 
-		arr = tmp;  // tmp에 저장된 값을 arr에 저장한다.
+		arr = tmp;  // tmp에 저장된 값을 arr에 저장한다. 이때 arr의 길이가 늘어난다?!
 
 		System.out.println("변경후 - arr.length:"+arr.length);	
 		for(int i=0; i < arr.length;i++) 

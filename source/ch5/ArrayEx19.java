@@ -29,7 +29,7 @@ class ArrayEx19 {
 				System.out.printf("%5d", score[i][j]);
 			}
 
-			avg = sum/(float)score[i].length;  // 평균계산
+			avg = sum/(float)score[i].length;  // 평균계산. 실수로 출력하기 위해 float형으로 나눈다!
 			System.out.printf("%5d %5.1f%n", sum, avg);
 		}
 

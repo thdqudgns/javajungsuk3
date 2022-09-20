@@ -6,9 +6,9 @@ class FlowEx29 {
 			int tmp = i;
 
 			do {
-				if(tmp%10%3==0 && tmp%10!=0) // tmp%10이 3의 배수인지 확인(0 제외)
+				if(tmp%10%3==0 && tmp%10!=0) // tmp%10이 3의 배수인지 확인(0 제외)	// 일의자리 보고
 					System.out.print("짝");
-			} while((tmp/=10)!=0);  // tmp /= 10은 tmp = tmp / 10과 동일
+			} while((tmp/=10)!=0);  // tmp /= 10은 tmp = tmp / 10과 동일		// 십의자리 본다
 
 			System.out.println();
 		}

@@ -21,10 +21,10 @@ class ArrayEx2 {
 			System.out.print(iArr1[i]+",");	
 		}
 		System.out.println();													
-		System.out.println(Arrays.toString(iArr2));
+		System.out.println(Arrays.toString(iArr2));	// Arrays.toString() 배열의 원소들을 String 형식으로 차례대로 출력한다.
 		System.out.println(Arrays.toString(iArr3));
 		System.out.println(Arrays.toString(chArr));
-		System.out.println(iArr3);
-		System.out.println(chArr);
+		System.out.println(iArr3);	// iArr3 변수명의 주소가 출력된다.
+		System.out.println(chArr);	// 문자만 들어간 배열의 변수명을 출력하면 문자가 문자열로 출력된다.
 	}
 }

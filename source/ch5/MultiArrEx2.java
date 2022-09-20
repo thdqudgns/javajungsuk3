@@ -12,7 +12,7 @@ class MultiArrEx2 {
 		// 배열의 모든 요소를 1부터 SIZE*SIZE까지의 숫자로 초기화
 		for(int i=0;i<SIZE;i++) {
 			for(int j=0;j<SIZE;j++) {
-				bingo[i][j] = i*SIZE + j + 1;
+				bingo[i][j] = i*SIZE + j + 1;	// 1~5, 6~10, 11~15, ...
 			}
 		}
 
@@ -30,7 +30,7 @@ class MultiArrEx2 {
 		}
 
 		do {
-			for(int i=0;i<SIZE;i++) {
+			for(int i=0;i<SIZE;i++) {	// 뒤섞인 2차원 배열을 출력한다.
 				for(int j=0;j<SIZE;j++)
 					System.out.printf("%2d ", bingo[i][j]);	
 				System.out.println();

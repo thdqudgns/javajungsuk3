@@ -14,8 +14,8 @@ class ArrayEx8 {
 		// 0번째 부터 5번째 요소까지 모두 6개만 바꾼다.
 		for(int i=0; i < 6; i++) {       
 			j = (int)(Math.random() * 45); // 0~44범위의 임의의 값을 얻는다. 
-			temp     = ball[i]; 
-			ball[i] = ball[j]; 
+			temp     = ball[i]; 	// i번째 index의 값과, random한 j번째 index의 값을 서로 바꾼다.
+			ball[i] = ball[j]; 		// 그 짓을 6번만 한다
 			ball[j] = temp; 
 		} 
 

@@ -27,7 +27,7 @@ class MultiArrEx1 {
 
 		while(true) {
 			System.out.printf("좌표를 입력하세요.(종료는 00)>");
-			String input = scanner.nextLine(); // 화면입력받은 내용을 tmp에 저장
+			String input = scanner.nextLine(); // 화면입력받은 내용을 input에 저장
 
 			if(input.length()==2) {   // 두 글자를 입력한 경우
 				x = input.charAt(0) - '0';  // 문자를 숫자로 변환

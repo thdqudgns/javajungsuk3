@@ -11,7 +11,7 @@ class FlowEx9 {
 		String tmp = scanner.nextLine(); // 화면을 통해 입력받은 내용을 tmp에 저장
 		score = Integer.parseInt(tmp);   // 입력받은 문자열(tmp)를 숫자로 변환
 
-		switch(score) {
+		switch(score) {	// 하나씩 조회하면 오래 걸릴 것 같다. 작성하는데도 피곤하다. 더 좋은 방법은? -> 10에
 			case 100: case 99: case 98: case 97: case 96:
 			case 95:  case 94: case 93: case 92: case 91:
 			case 90 :

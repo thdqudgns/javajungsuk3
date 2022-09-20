@@ -10,5 +10,6 @@ class ArrayEx14 {
 		char[] chArr = src.toCharArray();  // String을 char[]로 변환
 
 		System.out.println(chArr); // char배열(char[])을 출력
+		// String으로 출력되는 것과 차이가 없다.
 	}
 }

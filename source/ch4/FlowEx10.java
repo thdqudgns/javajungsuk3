@@ -11,7 +11,7 @@ class FlowEx10 {
 		String tmp = scanner.nextLine(); // 화면을 통해 입력받은 내용을 tmp에 저장
 		score = Integer.parseInt(tmp);   // 입력받은 문자열(tmp)를 숫자로 변환
 
-		switch(score/10) {
+		switch(score/10) {	// 10으로 나누어 십의자리로만 판별할 수 있다.
 			case 10:
 			case 9 :
 				grade = 'A';

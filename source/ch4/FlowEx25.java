@@ -15,7 +15,8 @@ class FlowEx25 {
 			sum += num%10; 	// sum = sum + num%10;
 			System.out.printf("sum=%3d num=%d%n", sum, num);
 
-			num /= 10;  // num = num / 10;  num을 10으로 나눈 값을 다시 num에 저장
+			num /= 10;  // num = num / 10;  num을 10으로 나눈 몫을 다시 num에 저장
+			// 마지막에 5 / 10의 몫은 0이다.
 		}
 		
 		System.out.println("각 자리수의 합:"+ sum);
