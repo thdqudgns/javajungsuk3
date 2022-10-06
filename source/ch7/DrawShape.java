@@ -7,6 +7,8 @@ class DrawShape {
 
 		Triangle t = new Triangle(p);
 		Circle   c = new Circle(new Point(150, 150), 50);
+		
+		c.color = "Red";
 
 		t.draw(); // 삼각형을 그린다.
 		c.draw(); // 원을 그린다.

@@ -27,7 +27,8 @@ class Point3D extends Point {
 		this.y = y;
 		this.z = z;
 	}
-
+	
+	@Override
 	String getLocation() {	// 오버라이딩
 		return "x :" + x + ", y :"+ y + ", z :" + z;
 	}	
