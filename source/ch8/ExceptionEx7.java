@@ -16,3 +16,12 @@ class ExceptionEx7 {
 		System.out.println(6);
 	}	// main메서드의 끝
 }
+
+/* 출력
+ * 1
+ * 2
+ * 3
+ * true
+ * ArithmeticException
+ * 6
+ * */

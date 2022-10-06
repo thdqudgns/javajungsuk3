@@ -4,8 +4,8 @@ class ExceptionEx5 {
 			System.out.println(2);
 			try {
 				System.out.println(3);
-				System.out.println(0/0);	
-				System.out.println(4); 	// 실행되지 않는다.
+				System.out.println(0/0);	// ArithmeticException 예외클래스 발생
+				System.out.println(4);		// 실행되지 않는다.
 			} catch (ArithmeticException ae)	{
 				System.out.println(5);
 			}	// try-catch의 끝

@@ -16,3 +16,10 @@ class FinallyTest3 {
 		}
 	}	// method1메서드의 끝
 }
+
+/* 출력
+ * method1()이 호출되었습니다.
+ * method1()의 finally블럭이 실행되었습니다.
+ * method1()의 수행을 마치고 main메서드로 돌아왔습니다.
+ * */
+ 

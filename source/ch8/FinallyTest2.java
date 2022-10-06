@@ -5,6 +5,7 @@ class FinallyTest2 {
 			copyFiles();		// 파일들을 복사한다. 
 		} catch (Exception e)	{
 			e.printStackTrace();
+			e.getMessage();
 		} finally {
 			deleteTempFiles();	// 프로그램 설치에 사용된 임시파일들을 삭제한다.
 		} // try-catch의 끝
